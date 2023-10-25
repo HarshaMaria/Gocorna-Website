@@ -34,7 +34,6 @@ function Part1() {
          <p className="text2">WATCH VIDEO</p>
         </div>
       </div>
-      {/* Rest of your component */}
     </div>
   );
 }
