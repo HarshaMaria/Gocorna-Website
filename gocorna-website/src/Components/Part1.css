@@ -123,3 +123,38 @@ p{
   line-height: normal;
   letter-spacing: 1.4px;
 }
+
+.icon-text-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+  
+.group-23-icon {
+  margin-left: 70px;
+}
+  
+.text1{
+  color: #B0B0B0;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126%; /* 16.38px */
+  letter-spacing: 1.04px;
+}
+
+.text2{
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126%; /* 11.34px */
+  letter-spacing: 1.485px;
+  text-transform: uppercase;
+}
