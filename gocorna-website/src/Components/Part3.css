@@ -1,0 +1,30 @@
+.part3{
+  width: 1152px;
+  height: 700px;
+  flex-shrink: 0;
+  background: #FAFBFD;
+  justify-content: center;
+}
+
+.img1{
+  
+}
+
+.img2{
+  margin-top: -183.93px;
+}
+
+.img3{
+  width: 393px;
+  height: 181.069px;
+  margin-left: 92px;
+  margin-right: 667px;  
+  margin-bottom: 167.93px;
+  margin-top: 130.07px;
+}
+
+img4{
+  width: 521.17px;
+  height: 284px;
+  border-radius: 8px;
+}
