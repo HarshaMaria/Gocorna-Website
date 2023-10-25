@@ -1,0 +1,125 @@
+.Container1{
+  width: 1152px;
+  height: 700px;
+  flex-shrink: 0;
+  background: #FAFBFD;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 37px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+  
+.icon {
+  margin-left: 52px;
+}
+  
+.title {
+  margin-right: auto;
+  margin-bottom: 630.18;
+}
+
+.go {
+  color: black;
+}
+  
+.corona {
+  color: red;
+}
+  
+nav span {
+  margin-right: 40px
+}
+  
+.download-button {
+  margin-right: 43px;
+  margin-left: 122.29px;
+  border-radius: 5px;
+  background: #4285F4;
+  color: #FCFDFE;
+  width: 130px;
+  height: 40px;
+  flex-shrink: 0;
+  font-family: Raleway;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.4px;  
+}
+
+
+.box {
+  margin-top: 240px;
+  margin-bottom: 240px;
+  width: 497px;
+  height: 220px;
+  flex-shrink: 0;
+}
+
+h1{
+  /* margin-left: 70px; */
+  margin-right: 585;
+  margin-top: 240px;
+  margin-bottom: 352;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126%; /* 55.44px */
+}
+
+p{
+  margin-top: 360;
+  margin-bottom: 304;
+  margin-left: 70px;
+  color: #616161;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.5%; /* 16.62px */
+  letter-spacing: 0.96px;
+  width: 375px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.health {
+  color: #4285F4;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126%;
+}
+.get-started-button {
+  margin-left: 70px;
+  margin-right: 938px;
+  margin-bottom: 240px;
+  width: 144px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #EC5863;
+  color: #FCFDFE;
+  font-family: Raleway;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
