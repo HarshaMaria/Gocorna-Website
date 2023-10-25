@@ -20,8 +20,10 @@ function Part1() {
         <button className="download-button">
           DOWNLOAD
         </button>
-        <img src={Rectangle15} alt="Rectangle 15 icon" className="rectangle-15-icon" />
-        <img src={Group14} alt="Group 14 icon" className="group-14-icon" /> 
+        <div className="icon-container">
+         <img src={Rectangle15} alt="Rectangle 15 icon" className="rectangle-15-icon" />
+         <img src={Group14} alt="Group 14 icon" className="group-14-icon" /> 
+        </div>
       </header>
       <div className="box">
         <div><h1>Take care of yours family's <span className="health">health.</span></h1></div>
