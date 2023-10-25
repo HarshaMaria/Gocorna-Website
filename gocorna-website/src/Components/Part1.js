@@ -7,8 +7,8 @@ import Rectangle15 from '../assets/Rectangle15.svg';
 
 function Part1() {
   return (
-    <div>
-      <header className="header">
+    <div className="part1">
+      <header className="header ">
         <img src={Icon} alt="icon" className="icon" />
         <span className="title"><span className="go">Go</span><span className="corona">Corona</span></span>
         <nav className="nav">
@@ -35,7 +35,7 @@ function Part1() {
       </div>
       <div className="icon-text-container">
         <img src={Group23} alt="Group 23 icon" className="group-23-icon" />
-        <div>
+        <div className="text">
          <p className="text1">Stay safe with GoCorona</p>
          <p className="text2">WATCH VIDEO</p>
         </div>

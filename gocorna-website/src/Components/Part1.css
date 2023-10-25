@@ -1,3 +1,7 @@
+.part1{
+  background: #FAFBFD;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -10,6 +14,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.4px;
+  position: relative;
 }
   
 .icon {
@@ -65,6 +70,7 @@ nav span {
   position: absolute;
   right: 0;
   top: 0;
+  margin-right: 4px;
 }
   
 .rectangle-15-icon {
@@ -119,7 +125,7 @@ p{
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 138.5%; 
+  line-height: 138.5%;
   letter-spacing: 0.96px;
   width: 375px;
   height: 36px;
@@ -163,28 +169,34 @@ p{
   
 .group-23-icon {
   margin-left: 70px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
+  margin-top: 148px;
+}
+
+.text{
+  width: 172px;
+  height: 32px;
+  flex-shrink: 0;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126%;
+  margin-top: 154px;
+  margin-bottom: 54px;
+  margin-left: -168px;
 }
 
 .text1{
   color: #B0B0B0;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Rubik;
   font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 126%; 
   letter-spacing: 1.04px;
 }
 
 .text2{
   color: #000;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Rubik;
   font-size: 9px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 126%; 
   letter-spacing: 1.485px;
   text-transform: uppercase;
+  margin-top: -26px;
 }
