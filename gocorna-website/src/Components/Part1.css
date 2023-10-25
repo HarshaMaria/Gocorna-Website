@@ -21,11 +21,19 @@
   
 .icon {
   margin-left: 52px;
+  margin-top: 37px;
 }
   
 .title {
   margin-right: auto;
   margin-bottom: 630.18;
+  margin-top: 43.96px;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 51px;
 }
 
 .go {
@@ -43,6 +51,7 @@ nav span {
 .download-button {
   margin-right: 43px;
   margin-left: 122.29px;
+  margin-top: 37px;
   border-radius: 5px;
   background: #4285F4;
   color: #FCFDFE;
@@ -134,8 +143,9 @@ p{
   
 .group-23-icon {
   margin-left: 70px;
+  margin-bottom: 48px;
 }
-  
+
 .text1{
   color: #B0B0B0;
   font-variant-numeric: lining-nums proportional-nums;

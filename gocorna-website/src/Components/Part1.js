@@ -9,7 +9,7 @@ function Part1() {
       <header className="header">
         <img src={Icon} alt="icon" className="icon" />
         <span className="title"><span className="go">Go</span><span className="corona">Corona</span></span>
-        <nav>
+        <nav className="nav">
           <span>HOME</span>
           <span>FEATURES</span>
           <span>SUPPORT</span>
