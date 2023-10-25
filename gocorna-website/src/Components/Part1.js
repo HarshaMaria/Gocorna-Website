@@ -2,6 +2,8 @@ import React from 'react';
 import './Part1.css';
 import Icon from '../assets/Group 1.svg';
 import Group23 from '../assets/Group 23.svg';
+import Group14 from '../assets/Group 14.svg';
+import Rectangle15 from '../assets/Rectangle15.svg';
 
 function Part1() {
   return (
@@ -18,6 +20,8 @@ function Part1() {
         <button className="download-button">
           DOWNLOAD
         </button>
+        <img src={Rectangle15} alt="Rectangle 15 icon" className="rectangle-15-icon" />
+        <img src={Group14} alt="Group 14 icon" className="group-14-icon" /> 
       </header>
       <div className="box">
         <div><h1>Take care of yours family's <span className="health">health.</span></h1></div>
