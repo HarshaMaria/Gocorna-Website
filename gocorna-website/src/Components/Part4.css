@@ -42,6 +42,8 @@ p1 {
 .bgroup{
   display: flex;
   gap: 72px;
+  margin-left: 86.74px;
+  margin-right: 86.74px;
 }
 
 .image-container {
@@ -83,4 +85,19 @@ p1 {
   left: 0;
   margin-left: 35.5px;
   margin-top: 57px;
+}
+
+.gp{
+ position: absolute;
+}
+
+.block1{
+  position: absolute;
+  margin-left: 168px;
+  margin-top: -68px;  
+}
+
+.block2{
+  position: absolute;
+  
 }

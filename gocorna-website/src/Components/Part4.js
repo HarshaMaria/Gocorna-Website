@@ -3,7 +3,10 @@ import Rectangle22 from '../assets/Rectangle22.svg';
 import Group42 from '../assets/Group42.svg';
 import Group43 from '../assets/Group43.svg';
 import Group45 from '../assets/Group45.svg';
-import './Part4.css';
+import Block1 from '../assets/Block1.svg';
+import Block2 from '../assets/Block2.svg';
+import Block3 from '../assets/Block3.svg';
+import Block4 from '../assets/Block4.svg';import './Part4.css';
 
 function Part4() {
   return (
@@ -30,6 +33,12 @@ function Part4() {
        <img className="rectangle22" src={Rectangle22} alt="Rectangle22" />
        <img className="group45" src={Group45} alt="Group45" />
      </div>
+    </div>
+    <div className="gp">
+     <img className="block1" src={Block1} alt="Block1" />
+     <img className="block2" src={Block2} alt="Block2" />
+     <img className="block3" src={Block3} alt="Block3" />
+     <img className="block4" src={Block4} alt="Block4" />   
     </div> 
    </div>  
   );
