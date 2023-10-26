@@ -1,7 +1,4 @@
 .part4{
-  width: 1152px;
-  height: 700px;
-  flex-shrink: 0;
   background: #FFF;
   display: flex;
   flex-direction: column;
@@ -40,4 +37,3 @@ p1 {
   margin-top: 14px;
   margin-left: 200px;
 }
-  
