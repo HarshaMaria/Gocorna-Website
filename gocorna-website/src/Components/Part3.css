@@ -17,7 +17,6 @@
   width: 393px;
   height: 181.069px;
   margin-left: 92px;
-  margin-right: 667px;  
   margin-bottom: 167.93px;
   margin-top: 130.07px;
 }
@@ -26,4 +25,11 @@ img4{
   width: 521.17px;
   height: 284px;
   border-radius: 8px;
+  flex-shrink: 0;
+  
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
 }
