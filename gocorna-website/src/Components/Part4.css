@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
 }
-  
+
 .header1 {
   width: 769px;
   height: 55px;
@@ -16,7 +16,8 @@
   font-weight: 700;
   line-height: 126%;
   margin-top: 79.59px;
-  margin-left: 192px;
+  margin-right: 264px;
+  align-items: center;
 }
   
 .red-text {
@@ -35,5 +36,51 @@ p1 {
   line-height: 138.5%;
   letter-spacing: 0.96px;
   margin-top: 14px;
-  margin-left: 200px;
+  margin-right: 275.05px;
+}
+
+.bgroup{
+  display: flex;
+  gap: 72px;
+}
+
+.image-container {
+  position: relative;
+  margin-left: 86.74px;
+}
+  
+.group42 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 35.5px;
+  margin-top: 57px;
+}
+  
+.rectangle22 {
+  position: relative;
+}
+
+.image-container1 {
+  position: relative;
+}
+    
+.group43 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 35.5px;
+  margin-top: 57px;
+}
+ 
+.image-container2 {
+  position: relative;
+}
+
+.group45 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 35.5px;
+  margin-top: 57px;
 }
