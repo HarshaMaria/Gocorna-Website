@@ -8,7 +8,7 @@ import './Part3.css';
 function Part3() {
     return (
     <div className="part3">
-      <div>
+      <div className="img-block">
        <div className="img1"> 
         <img src={Group28} alt="Group 28"></img>
        </div>
