@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .header1 {
@@ -51,6 +52,7 @@ p1 {
 .image-container {
   position: relative;
   margin-left: 86.74px;
+  z-index: 10;
 }
   
 .group42 {
@@ -67,6 +69,7 @@ p1 {
 
 .image-container1 {
   position: relative;
+  z-index: 10;
 }
     
 .group43 {
@@ -79,6 +82,7 @@ p1 {
  
 .image-container2 {
   position: relative;
+  z-index: 10;
 }
 
 .group45 {
@@ -97,22 +101,26 @@ p1 {
   position: absolute;
   margin-left: 168px;
   margin-top: -68px;  
+  z-index: 0;
 }
 
 .block2{
   position: absolute;
   top: -268px;
   left: 408px;
+  z-index: 0;
 }
 
 .block3{
   position: absolute;
   top: -150px;
   left: 760px;  
+  z-index: 0;
 }
 
 .block4{
   position: absolute;
   top: -348px;
   left: 1104px;  
+  z-index: 0;
 }
