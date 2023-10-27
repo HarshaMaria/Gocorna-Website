@@ -16,6 +16,7 @@
   font-weight: 700;
   line-height: 126%;
   margin-top: 79.59px;
+  margin-left: 192px;
   margin-right: 264px;
   align-items: center;
 }
@@ -35,13 +36,14 @@ p1 {
   font-weight: 400;
   line-height: 138.5%;
   letter-spacing: 0.96px;
-  margin-top: 14px;
+  margin-top: 4px;
   margin-right: 275.05px;
+  margin-left: 224px;
 }
 
 .bgroup{
   display: flex;
-  gap: 72px;
+  gap: 30px;
   margin-left: 86.74px;
   margin-right: 86.74px;
 }
@@ -99,5 +101,18 @@ p1 {
 
 .block2{
   position: absolute;
-  
+  top: -268px;
+  left: 408px;
+}
+
+.block3{
+  position: absolute;
+  top: -150px;
+  left: 760px;  
+}
+
+.block4{
+  position: absolute;
+  top: -348px;
+  left: 1104px;  
 }
