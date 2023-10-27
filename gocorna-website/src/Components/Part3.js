@@ -16,10 +16,10 @@ function Part3() {
         <img src={Group20} alt="Group 20"></img>
        </div> 
       </div> 
-    <div className="group">
-        <div className="img3"><img src={Group27} alt="Group27"></img></div>
-        <div className="img4"><img src={Group26} alt="Group26"></img></div>
-    </div>
+      <div className="group">
+       <div className="img3"><img src={Group27} alt="Group27"></img></div>
+       <div className="img4"><img src={Group26} alt="Group26"></img></div>
+      </div>
     </div>
     );
   }
