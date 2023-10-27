@@ -6,11 +6,14 @@ import Group45 from '../assets/Group45.svg';
 import Block1 from '../assets/Block1.svg';
 import Block2 from '../assets/Block2.svg';
 import Block3 from '../assets/Block3.svg';
-import Block4 from '../assets/Block4.svg';import './Part4.css';
+import Block4 from '../assets/Block4.svg';
+import Image1 from '../assets/Image1.svg';
+import Image2 from '../assets/Image2.svg';
+import './Part4.css';
 
 function Part4() {
   return (
-   <div>
+   <div className="part4full">
     <div className="part4">
       <div className="header1">
         <span className="red-text">Healthcare</span> at your Fingertips.
@@ -39,9 +42,14 @@ function Part4() {
      <img className="block2" src={Block2} alt="Block2" />
      <img className="block3" src={Block3} alt="Block3" />
      <img className="block4" src={Block4} alt="Block4" />   
+    </div>
+    <div className="Imagez">
+    <img src={Image1} alt="Image1" className="image1" />
+    <img src={Image2} alt="Image2" className="image2" />    
     </div> 
    </div>  
   );
 }
 
 export default Part4;
+
