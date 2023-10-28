@@ -12,9 +12,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  /* width: 1152px;
-  height: 700px;
-  flex-shrink: 0; */
 }
 
 .header1 {
@@ -138,11 +135,12 @@ p1 {
 .image1{
   position: absolute;
   flex-shrink: 0;
-  margin-top: 523.27px;
+  margin-top: 28px;
   margin-left: 390.19px;
+  margin-bottom: 46.9px;
 }
 
 .image2{
-  margin-top: 42px;
+  margin-top: 28px;
   margin-left: 699.99px;  
 }
