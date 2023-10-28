@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-right: 192px;
+  margin-right: 200px;
 }
 
 .header1 {
@@ -53,7 +53,7 @@ p1 {
   display: flex;
   gap: 30px;
   margin-left: 6.74px;
-  margin-right: 86.74px;
+  
 }
 
 .gp{
@@ -139,11 +139,11 @@ p1 {
   position: absolute;
   flex-shrink: 0;
   margin-top: 28px;
-  margin-left: 390.19px;
+  margin-left: 464px;
   margin-bottom: 46.9px;
 }
 
 .image2{
-  margin-top: 28px;
-  margin-left: 699.99px;  
+  margin-top: 24px;
+  margin-left: 700px;  
 }
