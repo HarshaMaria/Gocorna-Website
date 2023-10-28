@@ -1,4 +1,7 @@
 .part1{
+  width: 1152px;
+  height: 700px;
+  flex-shrink: 0;
   background: #FAFBFD;
 }
 
@@ -28,18 +31,18 @@
   margin-top: 43.96px;
 }
 
-.nav{
-  display: flex;
-  justify-content: center;
-  margin-top: 51px;
-}
-
 .go {
   color: black;
 }
   
 .corona {
   color: red;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 51px;
 }
   
 nav span {
@@ -74,9 +77,6 @@ nav span {
 }
   
 .rectangle-15-icon {
-  position: absolute;
-  right: 0;
-  top: 0;
   width: 295.288px;
   height: 700px;
   flex-shrink: 0;
@@ -94,18 +94,16 @@ nav span {
 }  
 
 .box {
-  margin-top: 240px;
+  margin-top: 163px;
   margin-bottom: 240px;
+  margin-left: 70px;
+  margin-right: 585px;
   width: 497px;
   height: 220px;
   flex-shrink: 0;
 }
 
 h1{
-  /* margin-left: 70px; */
-  margin-right: 585;
-  margin-top: 240px;
-  margin-bottom: 352;
   color: #000;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Rubik;
@@ -115,10 +113,18 @@ h1{
   line-height: 126%;
 }
 
+.health {
+  color: #4285F4;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126%;
+}
+
 p{
-  margin-top: 360;
-  margin-bottom: 304;
-  margin-left: 70px;
+  margin-left: 0px;
   color: #616161;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Rubik;
@@ -132,19 +138,8 @@ p{
   flex-shrink: 0;
 }
 
-.health {
-  color: #4285F4;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Rubik;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 126%;
-}
 .get-started-button {
-  margin-left: 70px;
-  margin-right: 938px;
-  margin-bottom: 240px;
+  margin-left: 0px;
   width: 144px;
   height: 40px;
   flex-shrink: 0;
@@ -160,44 +155,56 @@ p{
 }
 
 .icon-text-container {
+  width: 228px;
+  height: 44px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   position: absolute;
   bottom: 0;
   left: 0;
-}
-  
-.group-23-icon {
   margin-left: 70px;
-  /* margin-bottom: 48px; */
-  margin-top: 148px;
+  margin-bottom: 48px;
+}
+
+.group-23-icon{
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
 }
 
 .text{
+  position: absolute;
   width: 172px;
   height: 32px;
-  flex-shrink: 0;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 126%;
-  margin-top: 154px;
-  margin-bottom: 54px;
-  margin-left: -168px;
+  display: flex;
+  flex-direction: column;
 }
 
 .text1{
   color: #B0B0B0;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
   font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126%;
   letter-spacing: 1.04px;
+  margin-top: 0px;
+  margin-left: 56px;
 }
 
 .text2{
+  position: relative;
   color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
   font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126%;
   letter-spacing: 1.485px;
   text-transform: uppercase;
-  margin-top: -26px;
-  margin-left: 30px;
+  margin-top: -27px;
+  margin-left: 56px;
 }

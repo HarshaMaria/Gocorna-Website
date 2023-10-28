@@ -1,7 +1,8 @@
 .part4full{
+  position: absolute;
   width: 1152px;
-height: 700px;
-flex-shrink: 0;
+  height: 700px;
+  flex-shrink: 0;
 }
 
 .part4{
@@ -135,17 +136,13 @@ p1 {
 }
 
 .image1{
-  width: 160.043px;
-  height: 55px;
+  position: absolute;
   flex-shrink: 0;
-  margin-bottom: 52px;
-  margin-left: 490px;
+  margin-top: 523.27px;
+  margin-left: 390.19px;
 }
 
 .image2{
-  width: 165px;
-  height: 66px;
-  flex-shrink: 0;
-  margin-bottom: 47px;
-  margin-left: 56.59px;
+  margin-top: 42px;
+  margin-left: 699.99px;  
 }

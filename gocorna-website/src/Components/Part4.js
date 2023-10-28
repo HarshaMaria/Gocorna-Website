@@ -43,7 +43,7 @@ function Part4() {
      <img className="block3" src={Block3} alt="Block3" />
      <img className="block4" src={Block4} alt="Block4" />   
     </div>
-    <div className="Imagez">
+    <div>
     <img src={Image1} alt="Image1" className="image1" />
     <img src={Image2} alt="Image2" className="image2" />    
     </div> 

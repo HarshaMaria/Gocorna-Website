@@ -26,9 +26,9 @@ function Part1() {
         </div>
       </header>
       <div className="box">
-        <div><h1>Take care of yours family's <span className="health">health.</span></h1></div>
-        <p>All in one destination for COVID-19 health queries. <br />
-     Consult 10,000+ health workers about your concerns.</p>
+        <h1>Take care of yours <br /> family's <span className="health">health.</span></h1>
+         <p>All in one destination for COVID-19 health queries. <br />
+          Consult 10,000+ health workers about your concerns.</p>
         <button className="get-started-button">
           GET STARTED
         </button>

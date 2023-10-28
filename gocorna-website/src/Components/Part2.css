@@ -1,5 +1,5 @@
-.part2{
-  display: flex;
+/* .part2{
+  
   width: 1152px;
   height: 700px;
   flex-shrink: 0;
@@ -30,13 +30,50 @@
 h1 {
   width: 379px;
   height: 108px;
+  flex-shrink: 0;
   color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
   font-family: Rubik;
   font-size: 44px;
+  font-style: normal;
   font-weight: 700;
   line-height: 126%;
+} */
+
+
+
+.part2{
+  width: 1152px;
+  height: 700px;
+  flex-shrink: 0;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  width: 379px;
+  height: 238px;
+  flex-shrink: 0;
+  margin-top: 231px;
+  margin-left: 587px;
+  margin-right: 106px;
+  margin-bottom: 231px;
+}
+
+h1 {
+  width: 379px;
+  height: 108px;
+  flex-shrink: 0;
+  color: #000;
   font-variant-numeric: lining-nums proportional-nums;
-  text-align: left;
+  font-family: Rubik;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126%;
+  margin-bottom: 1px;
 }
 
 .corona {
@@ -48,13 +85,13 @@ p {
   height: 54px;
   flex-shrink: 0;
   color: #616161;
+  font-variant-numeric: lining-nums proportional-nums;
   font-family: Rubik;
   font-size: 12px;
+  font-style: normal;
   font-weight: 400;
   line-height: 138.5%;
   letter-spacing: 0.96px;
-  margin-left: 8px;
-
 }
 
 button{
@@ -71,4 +108,10 @@ button{
   line-height: normal;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+} 
+
+.image1{
+position: absolute;
+margin-right: 1000px;
+margin-bottom: 470px;
 }
