@@ -1,11 +1,11 @@
 import React from 'react';
-import './Part1.css';
+import './FamilyHealth.css';
 import Icon from '../assets/Group 1.svg';
 import Group23 from '../assets/Group 23.svg';
 import Group14 from '../assets/Group 14.svg';
 import Rectangle15 from '../assets/Rectangle15.svg';
 
-function Part1() {
+function FamilyHealth() {
   return (
     <div className="part1">
       <header className="header ">
@@ -44,4 +44,4 @@ function Part1() {
   );
 }
 
-export default Part1;
+export default FamilyHealth;
