@@ -1,7 +1,7 @@
-import Part1 from './Components/Part1';
-import Part2 from './Components/Part2';
-import Part3 from './Components/Part3';
-import Part4 from './Components/Part4';
+import Part1 from './components/Part1';
+import Part2 from './components/Part2';
+import Part3 from './components/Part3';
+import Part4 from './components/Part4';
 import './App.css';
 
 function App() {
