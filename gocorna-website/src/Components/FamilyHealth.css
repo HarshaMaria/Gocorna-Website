@@ -43,6 +43,13 @@
   display: flex;
   justify-content: center;
   margin-top: 51px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
 }
   
 nav span {
