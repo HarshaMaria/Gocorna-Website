@@ -1,6 +1,6 @@
 import FamilyHealth from './components/FamilyHealth';
 import SafetyAssurance from './components/SafetyAssurance';
-import Part3 from './components/Part3';
+import ExpertConsultation from './components/ExpertConsultation';
 import Part4 from './components/Part4';
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <FamilyHealth />
       <SafetyAssurance />
-      <Part3 />
+      <ExpertConsultation />
       <Part4 />
     </div>
   );
