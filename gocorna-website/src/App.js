@@ -1,7 +1,7 @@
 import FamilyHealth from './components/FamilyHealth';
 import SafetyAssurance from './components/SafetyAssurance';
 import ExpertConsultation from './components/ExpertConsultation';
-import Part4 from './components/Part4';
+import HealthcareAccessibility from './components/HealthcareAccessibility';
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <FamilyHealth />
       <SafetyAssurance />
       <ExpertConsultation />
-      <Part4 />
+      <HealthcareAccessibility />
     </div>
   );
 }

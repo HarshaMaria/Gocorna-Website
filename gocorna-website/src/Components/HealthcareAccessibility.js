@@ -9,9 +9,9 @@ import Block3 from '../assets/Block3.svg';
 import Block4 from '../assets/Block4.svg';
 import Image1 from '../assets/Image1.svg';
 import Image2 from '../assets/Image2.svg';
-import './Part4.css';
+import './HealthcareAccessibility.css';
 
-function Part4() {
+function HealthcareAccessibility() {
   return (
    <div className="part4full">
     <div className="part4">
@@ -51,5 +51,5 @@ function Part4() {
   );
 }
 
-export default Part4;
+export default HealthcareAccessibility;
 
