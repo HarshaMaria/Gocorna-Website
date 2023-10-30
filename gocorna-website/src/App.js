@@ -1,5 +1,5 @@
 import FamilyHealth from './components/FamilyHealth';
-import Part2 from './components/Part2';
+import SafetyAssurance from './components/SafetyAssurance';
 import Part3 from './components/Part3';
 import Part4 from './components/Part4';
 import './App.css';
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <FamilyHealth />
-      <Part2 />
+      <SafetyAssurance />
       <Part3 />
       <Part4 />
     </div>

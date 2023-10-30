@@ -1,8 +1,8 @@
 import React from 'react';
-import './Part2.css';
+import './SafetyAssurance.css';
 import Group22 from '../assets/Group22.svg';
 
-function Part2() {
+function SafetyAssurance() {
   return (
     <div className="part2">
      <div className="image1"><img src={Group22} alt="Group 22"></img></div>
@@ -17,4 +17,4 @@ function Part2() {
   );
 }
 
-export default Part2;
+export default SafetyAssurance;
