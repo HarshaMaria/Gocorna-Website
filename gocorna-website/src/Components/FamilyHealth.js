@@ -26,8 +26,8 @@ function FamilyHealth() {
         </div>
       </header>
       <div className="box">
-        <h1>Take care of yours <br /> family's <span className="health">health.</span></h1>
-         <p>All in one destination for COVID-19 health queries. <br />
+        <h1 className='head'>Take care of yours <br /> family's <span className="health">health.</span></h1>
+         <p className='test'>All in one destination for COVID-19 health queries. <br />
           Consult 10,000+ health workers about your concerns.</p>
         <button className="get-started-button">
           GET STARTED

@@ -19,7 +19,7 @@ function HealthcareAccessibility() {
         <span className="red-text">Healthcare</span> at your Fingertips.
       </div>
         <p1>
-          Bringing premium healthcare features to your fingertips. User-friendly mobile platform to <br />
+          Bringing premium healthcare features to your fingertips. User-friendly mobile platform to
            bring healthcare to your fingertips. Signup and be a part of the new health culture.
         </p1>
     </div>
